@@ -14,7 +14,8 @@ This project workflow is classic and doesn't stand out from the rule  of usual D
 * Download the Data 
 * Preprocess the Data
 * Modeling 
-* Evaluating and predicting
+* Evaluating and predicting;
+
 In this Part I'm only going to describe The data pipeline, the hardware used  and the model
 
 ### Data Pipeline 
@@ -31,4 +32,4 @@ This project was built in colab So in this project i used both TPUs and GPUs dep
 * **TPU** : when using TPUs the batch size is set to 1024 and we get a time performance of 1s per epoch also. Using mixed policy with TPUs is not supported yet since mixed policy is still experimental 
 
 ### Modeling : 
-The model architecture I chose to use is VGG which is simple and perfect for this first Project and only requires using the Sequential Keras API
+The model architecture I chose to use is VGG which is simple and perfect for this first Project and only requires using the Sequential Keras API.I achieved 85% accuracy working with this architecture and it can do better if further tuned. 
